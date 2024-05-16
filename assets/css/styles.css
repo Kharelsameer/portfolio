@@ -46,6 +46,7 @@ a.primary-button{
     transition-property: all;
     transition-timing-function: linear;
     transition-duration: 500ms;
+    width: fit-content;
 }
 a.primary-button:hover{
     background-color: var(--title-text-color);
@@ -102,3 +103,58 @@ a.primary-button:hover{
 }
 
 /* End Header */
+
+/* START HERO SECTION */
+
+.hero-row{
+    background-color: var(--light-color);
+
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-start;
+    gap: 20px;
+    flex-basis: 60%;
+    flex-grow: 2;
+}
+.hero-content h6{
+    background-image: url(../images/orangeDot.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+}
+.hero-content h2{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.hero-content h2 span{
+    color: var(--primary-color);
+}
+.hero-content p{
+    line-height: 1.7;
+    font-size: 18px;
+}
+/* .hero-content primary-button{
+    box-sizing: border-box;
+    width: 100px;
+} */
+
+
+
+.hero-banner{
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+.hero-banner img{
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+/* END HERO SECTION */
