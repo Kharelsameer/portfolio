@@ -513,3 +513,18 @@ margin-bottom: 24px;
 
 
 /* END OVERLAY NEWSLETTER */
+
+/* START MY PORTFOLIO  */
+
+.portfolio-row{
+    padding-bottom: 130px;
+}
+
+.portfolio-container{
+  display: flex;
+    flex-direction: column;
+
+}
+
+
+/* END MY PORTFOLIO  */
